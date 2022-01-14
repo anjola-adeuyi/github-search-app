@@ -29,7 +29,7 @@ const Navbar = ({ title }) => {
 }
 
 Navbar.defaultProps = {
-  title: 'Github Search User App'
+  title: 'Github Search Users App'
 }
 
 Navbar.propTypes = {
