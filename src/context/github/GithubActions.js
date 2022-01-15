@@ -50,10 +50,18 @@ export const getUserRepos = async(login) => {
 
   const data = await response.json()
 
-  // dispatch({
-  //   type: 'GET_REPOS',
-  //   payload: data
-  // })
-
   return data
+}
+
+ //Fetch First 30 Users
+ export const fetchUsers = async() => {
+  const response = await fetch(`${GITHUB_URL}/users`, {
+    header: {
+      Authorization: `token ${GITHUB_TOKEN}`
+    }
+  })
+
+  const data = await response.json()
+
+  return data;
 }
