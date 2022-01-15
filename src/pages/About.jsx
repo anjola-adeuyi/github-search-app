@@ -13,7 +13,7 @@ const About = () => {
         </a>{' '}
         Udemy course by
         <strong>
-          <a href='https://traversymedia.com' target='_blank'> Brad Traversy</a>
+          <a href='https://traversymedia.com' target='_blank' rel='noreferrer'> Brad Traversy</a>
         </strong>
         .
       </p>
@@ -22,7 +22,7 @@ const About = () => {
       </p>
       <p className='text-lg text-gray-400'>
         Done by:
-        <a className='text-white' href='https://twitter.com/anjola_adeuyi' target='_blank'>
+        <a className='text-white' href='https://twitter.com/anjola_adeuyi' target='_blank' rel='noreferrer'>
           {'  '} Anjolaoluwa Adeuyi Joshua
         </a>
       </p>
